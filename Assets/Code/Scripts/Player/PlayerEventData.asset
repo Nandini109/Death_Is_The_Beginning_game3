@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04b7476d4df42f7a53c3e07f0741ced, type: 3}
+  m_Name: PlayerEventData
+  m_EditorClassIdentifier: 
+  PlayerSpawns:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayerIdles:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayerRuns:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayerJumps:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayerInAir:
+    m_PersistentCalls:
+      m_Calls: []
