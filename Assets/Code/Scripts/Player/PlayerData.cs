@@ -7,7 +7,7 @@ namespace Code.Scripts.Player
     public class PlayerData : ScriptableObject
     {
      
-        [field: SerializeField, Range(0f, 20f),Header("Movement")] public float MovementSpeed { get; private set; } = 5f;
+        [field: SerializeField, Range(0f, 20f),Header("Movement")] public float MovementSpeed { get; set; } = 5f;
         
         [field: SerializeField, Range(1f, 20f)] public float MaxAcceleration { get; private set; } = 50f;
         [field: SerializeField, Range(1f, 20f)] public float MaxDeceleration { get; private set; } = 50f;
