@@ -131,14 +131,22 @@ namespace Code.Scripts.Player
 
         public void Death()
         {
-            RB.constraints = RigidbodyConstraints2D.FreezeAll;
-            Invoke("ActualDeath", Data.PlayerDeathDelay);
+            //RB.constraints = RigidbodyConstraints2D.FreezeAll;
+            //Invoke("ActualDeath", Data.PlayerDeathDelay);
+            Respawn();
         }
 
         private void ActualDeath()
         {
             EventData.HandlePlayerDeath(this);
             Destroy(this);
+        }
+
+        private void Respawn()
+        {
+            Debug.Log("Player Respawn");
+            Vector2 checkpointPosition = CheckPointManager.Instance.GetCurrentCheckpoint();
+            transform.position = checkpointPosition;
         }
     }
 }
