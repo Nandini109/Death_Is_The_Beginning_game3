@@ -188,15 +188,19 @@ namespace Code.Scripts.Player
         public void OnFlipGravity(InputAction.CallbackContext context)
         {
             Debug.Log("I'm trying to flip the player");
-            
 
+            if (_groundCheck.IsGrounded == true)
+            {
+            
             if (isFlipped == false)
             {
+                
                 Debug.Log("Player Flipped");
                 RB.gravityScale = flippedGravity;
                 transform.localScale = new Vector3(5, -5, 1);
                 RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse);
                 isFlipped = true;
+                
             }
             else
             {
@@ -206,15 +210,18 @@ namespace Code.Scripts.Player
                 RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);
                 isFlipped = false;
             }
+            }
         }
 
         public void OnSwordAttack()
         {
+            
             if (_currentState is PlayerRunState || _currentState is PlayerIdleState)
             {
                 ((PlayerBaseState)_currentState).SwordAttack();
                 Debug.Log("Attack");
                 isAttacking = true;
+                
             }
         }
         public void OnSwordAttackCancelled()
