@@ -213,7 +213,7 @@ namespace Code.Scripts.Player
             if (_currentState is PlayerRunState || _currentState is PlayerIdleState)
             {
                 ((PlayerBaseState)_currentState).SwordAttack();
-                Debug.Log("swipe");
+                Debug.Log("Attack");
                 isAttacking = true;
             }
         }
