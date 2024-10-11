@@ -6,10 +6,10 @@ using UnityEngine;
 
 public class PlayerAttackState1 : PlayerBaseState
 {
-    float attackRange = 3f; 
+    
     private LayerMask enemyLayer;
     float elapsedTime;
-    float resetTime = 0.8f;
+    float resetTime = 0.7f;
     
     public PlayerAttackState1(PlayerController player) : base(player)
     {
