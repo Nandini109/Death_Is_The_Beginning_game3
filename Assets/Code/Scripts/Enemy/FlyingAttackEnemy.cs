@@ -28,6 +28,7 @@ public class FlyingAttackEnemy : MonoBehaviour
     {
         if (IsPlayerInRange())
         {
+            
             FollowPlayer(); // Follow the player if in range
             isPatrolling = false; // Ensure patrol is not active
         }
@@ -52,7 +53,7 @@ public class FlyingAttackEnemy : MonoBehaviour
 
     private void Patrol()
     {
-        Debug.Log("I'm on Patrol!!");
+        //Debug.Log("I'm on Patrol!!");
         Vector2 target = CurrentMovementTarget();
 
         enemyObject.position = Vector2.Lerp(enemyObject.position, target, moveSpeed * Time.deltaTime);
@@ -90,6 +91,7 @@ public class FlyingAttackEnemy : MonoBehaviour
         float distanceToStart = Vector2.Distance(enemyObject.position, initialPosition);
         if (distanceToStart <= 0.1f) 
         {
+            //Debug.Log("Imma go back on duty");
             isPatrolling = true;
             Patrol(); 
         }
@@ -108,13 +110,21 @@ public class FlyingAttackEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log("Collision Detected with " + collision.gameObject.name);
+        Debug.Log("Collision Detected");
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
-        if (playerController != null)
-        {
 
-            playerController.Death();
-            Debug.Log("Patrol Enemy Attackkk");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (playerController.IsAttacking())
+            {
+                Debug.Log("Player Killed Flying Enemy");
+                Destroy(gameObject);  
+            }
+            else
+            {
+                playerController.Death();
+                Debug.Log("Player hit by flying enemy and dies!");
+            }
         }
     }
 
