@@ -5,8 +5,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
+using static Cinemachine.DocumentationSortingAttribute;
 using static UnityEditor.Experimental.GraphView.GraphView;
 using State = Code.Scripts.StateMachine.State;
+using UnityEngine.UI;
 
 namespace Code.Scripts.Player
 {
@@ -43,6 +45,7 @@ namespace Code.Scripts.Player
         private PlayerInAirState _inAirState;
         private PlayerAttackState1 _attackState1;
 
+
         #endregion
         
         #region Private Variables
@@ -55,10 +58,11 @@ namespace Code.Scripts.Player
         private float flippedGravity = -1f;
 
         private bool isFlipped = false;
-       
-
+        private bool isAttacking = false;
+        private int lives = 3;       
 
         [SerializeField] private float flipJumpForce = 5f;
+        [SerializeField] private Image[] lifeSprites;
         public override void ChangeState(State newState)
         {
             base.ChangeState(newState);
@@ -153,7 +157,19 @@ namespace Code.Scripts.Player
         {
             //RB.constraints = RigidbodyConstraints2D.FreezeAll;
             //Invoke("ActualDeath", Data.PlayerDeathDelay);
-            Respawn();
+            lives--; 
+
+            if (lives > 0)
+            {
+                Respawn();
+                UpdateLivesUI();
+                Debug.Log("Lives left:" + lives);
+            }
+            else
+            {
+                
+                ActualDeath();
+            }
         }
 
         private void ActualDeath()
@@ -197,15 +213,37 @@ namespace Code.Scripts.Player
             if (_currentState is PlayerRunState || _currentState is PlayerIdleState)
             {
                 ((PlayerBaseState)_currentState).SwordAttack();
+                isAttacking = true;
             }
         }
-
-
         public void OnSwordAttackCancelled()
         {
             Debug.Log("Cancled");
         }
-    }
 
+        public bool IsAttacking()
+        {
+            return isAttacking;
+        }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (isAttacking == true)
+            {
+                if (collision.gameObject.CompareTag("Enemy"))
+                {
+                    //Debug.Log("Dieeeee");
+                    isAttacking = false;
+                }
+            }
+        }
+
+        private void UpdateLivesUI()
+        {
+            if (lives >= 0 && lives < lifeSprites.Length)
+            {
+                lifeSprites[lives].enabled = false; 
+            }
+        }
+    }
     
 }

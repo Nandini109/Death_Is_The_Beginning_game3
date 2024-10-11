@@ -86,7 +86,7 @@ namespace Code.Scripts.Player
         
         public virtual void SwordAttack()
         {
-            Debug.Log("Attackkkkkk");
+            //Debug.Log("Attackkkkkk");
             _player.ChangeState(PlayerStates.Attacking);
         }
     }
