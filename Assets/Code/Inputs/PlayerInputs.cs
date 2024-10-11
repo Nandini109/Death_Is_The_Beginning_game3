@@ -44,6 +44,24 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FlipGravity"",
+                    ""type"": ""Button"",
+                    ""id"": ""cc286643-bc0c-4edc-a1f9-2bf998aed481"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SwordAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""8921e6d7-1888-4149-819e-cebe020f2418"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -145,6 +163,28 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""48009365-a4fc-469f-ab85-26164ad9e501"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlipGravity"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""092b69fa-1d3c-4b1e-b9ba-ea16171d94e2"",
+                    ""path"": ""<Keyboard>/z"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwordAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -206,6 +246,8 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
         m_PlayerActions = asset.FindActionMap("PlayerActions", throwIfNotFound: true);
         m_PlayerActions_Movement = m_PlayerActions.FindAction("Movement", throwIfNotFound: true);
         m_PlayerActions_Jump = m_PlayerActions.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerActions_FlipGravity = m_PlayerActions.FindAction("FlipGravity", throwIfNotFound: true);
+        m_PlayerActions_SwordAttack = m_PlayerActions.FindAction("SwordAttack", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Newaction = m_Menu.FindAction("New action", throwIfNotFound: true);
@@ -272,12 +314,16 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
     private List<IPlayerActionsActions> m_PlayerActionsActionsCallbackInterfaces = new List<IPlayerActionsActions>();
     private readonly InputAction m_PlayerActions_Movement;
     private readonly InputAction m_PlayerActions_Jump;
+    private readonly InputAction m_PlayerActions_FlipGravity;
+    private readonly InputAction m_PlayerActions_SwordAttack;
     public struct PlayerActionsActions
     {
         private @PlayerInputs m_Wrapper;
         public PlayerActionsActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_PlayerActions_Movement;
         public InputAction @Jump => m_Wrapper.m_PlayerActions_Jump;
+        public InputAction @FlipGravity => m_Wrapper.m_PlayerActions_FlipGravity;
+        public InputAction @SwordAttack => m_Wrapper.m_PlayerActions_SwordAttack;
         public InputActionMap Get() { return m_Wrapper.m_PlayerActions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -293,6 +339,12 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @FlipGravity.started += instance.OnFlipGravity;
+            @FlipGravity.performed += instance.OnFlipGravity;
+            @FlipGravity.canceled += instance.OnFlipGravity;
+            @SwordAttack.started += instance.OnSwordAttack;
+            @SwordAttack.performed += instance.OnSwordAttack;
+            @SwordAttack.canceled += instance.OnSwordAttack;
         }
 
         private void UnregisterCallbacks(IPlayerActionsActions instance)
@@ -303,6 +355,12 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @FlipGravity.started -= instance.OnFlipGravity;
+            @FlipGravity.performed -= instance.OnFlipGravity;
+            @FlipGravity.canceled -= instance.OnFlipGravity;
+            @SwordAttack.started -= instance.OnSwordAttack;
+            @SwordAttack.performed -= instance.OnSwordAttack;
+            @SwordAttack.canceled -= instance.OnSwordAttack;
         }
 
         public void RemoveCallbacks(IPlayerActionsActions instance)
@@ -388,6 +446,8 @@ public partial class @PlayerInputs: IInputActionCollection2, IDisposable
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnFlipGravity(InputAction.CallbackContext context);
+        void OnSwordAttack(InputAction.CallbackContext context);
     }
     public interface IMenuActions
     {

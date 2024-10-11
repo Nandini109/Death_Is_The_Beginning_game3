@@ -36,7 +36,7 @@ namespace Code.Scripts.Player
         protected virtual void SetPhysics()
         {
             var newGravity = -2f * _player.Data.JumpHeight / (_player.Data.TimeToApex * _player.Data.TimeToApex);
-            _player.RB.gravityScale = (newGravity / Physics2D.gravity.y) * _player.Data.GravityMultiplier;
+            //_player.RB.gravityScale = (newGravity / Physics2D.gravity.y) * _player.Data.GravityMultiplier;
         }
 
         protected virtual void CalculateGravity()
@@ -82,8 +82,12 @@ namespace Code.Scripts.Player
         {
             SetXVelocity();
             CalculateGravity();
-            
         }
         
+        public virtual void SwordAttack()
+        {
+            //Debug.Log("Attackkkkkk");
+            _player.ChangeState(PlayerStates.Attacking);
+        }
     }
 }

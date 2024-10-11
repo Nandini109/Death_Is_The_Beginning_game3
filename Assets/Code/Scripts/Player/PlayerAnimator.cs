@@ -5,6 +5,7 @@ namespace Code.Scripts.Player
     public class PlayerAnimator : MonoBehaviour
     {
         private Animator _animator;
+        
 
         void Awake()
         {
@@ -13,7 +14,7 @@ namespace Code.Scripts.Player
         }
 
         public void PlayAnimation(string animationName)
-        {
+        { 
             _animator?.Play(animationName);
         }
     }
@@ -25,5 +26,6 @@ namespace Code.Scripts.Player
         public const string RUN = "Run";
         public const string AIR = "JumpMid";
         public const string JUMP = "Jump";
+        public const string SWORDATTACK = "SwordAttack";
     }
 }

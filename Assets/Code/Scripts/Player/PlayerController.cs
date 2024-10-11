@@ -3,12 +3,16 @@ using Code.Scripts.StateMachine;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
+using static Cinemachine.DocumentationSortingAttribute;
+using static UnityEditor.Experimental.GraphView.GraphView;
 using State = Code.Scripts.StateMachine.State;
+using UnityEngine.UI;
 
 namespace Code.Scripts.Player
 {
-    public enum PlayerStates{Idle, Run, Jumping, InAir}
+    public enum PlayerStates{Idle, Run, Jumping, InAir, Attacking}
 
     public class PlayerInfo
     {
@@ -39,7 +43,8 @@ namespace Code.Scripts.Player
         private PlayerRunState _runState;
         private PlayerJumpingState _jumpingState;
         private PlayerInAirState _inAirState;
-        
+        private PlayerAttackState1 _attackState1;
+
 
         #endregion
         
@@ -48,6 +53,16 @@ namespace Code.Scripts.Player
 
         #endregion
 
+
+        private float normalGravity = 1f;
+        private float flippedGravity = -1f;
+
+        private bool isFlipped = false;
+        private bool isAttacking = false;
+        private int lives = 3;       
+
+        [SerializeField] private float flipJumpForce = 5f;
+        [SerializeField] private Image[] lifeSprites;
         public override void ChangeState(State newState)
         {
             base.ChangeState(newState);
@@ -69,6 +84,9 @@ namespace Code.Scripts.Player
                 case PlayerStates.InAir:
                     ChangeState(_inAirState);
                     break;
+                case PlayerStates.Attacking:
+                    ChangeState(_attackState1);
+                    break;
             }
         }
 
@@ -84,7 +102,10 @@ namespace Code.Scripts.Player
             {
                 if (!val) Data.TimeEnteredAir = Time.time;
             };
+
             
+            var newGravity = -2f * Data.JumpHeight / (Data.TimeToApex * Data.TimeToApex);
+            RB.gravityScale = (newGravity / Physics2D.gravity.y) * Data.GravityMultiplier;
 
         }
 
@@ -94,6 +115,7 @@ namespace Code.Scripts.Player
             _runState = new PlayerRunState(this);
             _jumpingState = new PlayerJumpingState(this);
             _inAirState = new PlayerInAirState(this);
+            _attackState1 = new PlayerAttackState1(this);
         }
 
         public void HandleMovement(Vector2 movement)
@@ -120,6 +142,7 @@ namespace Code.Scripts.Player
         protected override void Update()
         {
             base.Update();
+            //Debug.Log(RB.gravityScale);
             EventData.HandlePlayerUpdate(this);
         }
         protected override void FixedUpdate()
@@ -129,10 +152,24 @@ namespace Code.Scripts.Player
 
         }
 
+      
         public void Death()
         {
-            RB.constraints = RigidbodyConstraints2D.FreezeAll;
-            Invoke("ActualDeath", Data.PlayerDeathDelay);
+            //RB.constraints = RigidbodyConstraints2D.FreezeAll;
+            //Invoke("ActualDeath", Data.PlayerDeathDelay);
+            lives--; 
+
+            if (lives > 0)
+            {
+                Respawn();
+                UpdateLivesUI();
+                Debug.Log("Lives left:" + lives);
+            }
+            else
+            {
+                
+                ActualDeath();
+            }
         }
 
         private void ActualDeath()
@@ -140,5 +177,73 @@ namespace Code.Scripts.Player
             EventData.HandlePlayerDeath(this);
             Destroy(this);
         }
+
+        private void Respawn()
+        {
+            Debug.Log("Player Respawn");
+            Vector2 checkpointPosition = CheckPointManager.Instance.GetCurrentCheckpoint();
+            transform.position = checkpointPosition;
+        }
+
+        public void OnFlipGravity(InputAction.CallbackContext context)
+        {
+            Debug.Log("I'm trying to flip the player");
+            
+
+            if (isFlipped == false)
+            {
+                Debug.Log("Player Flipped");
+                RB.gravityScale = flippedGravity;
+                transform.localScale = new Vector3(1, -1, 1);
+                RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse);
+                isFlipped = true;
+            }
+            else
+            {
+                Debug.Log("Player is back to normal");
+                RB.gravityScale = normalGravity;
+                transform.localScale = new Vector3(1, 1, 1);
+                RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);
+                isFlipped = false;
+            }
+        }
+
+        public void OnSwordAttack()
+        {
+            if (_currentState is PlayerRunState || _currentState is PlayerIdleState)
+            {
+                ((PlayerBaseState)_currentState).SwordAttack();
+                isAttacking = true;
+            }
+        }
+        public void OnSwordAttackCancelled()
+        {
+            Debug.Log("Cancled");
+        }
+
+        public bool IsAttacking()
+        {
+            return isAttacking;
+        }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (isAttacking == true)
+            {
+                if (collision.gameObject.CompareTag("Enemy"))
+                {
+                    //Debug.Log("Dieeeee");
+                    isAttacking = false;
+                }
+            }
+        }
+
+        private void UpdateLivesUI()
+        {
+            if (lives >= 0 && lives < lifeSprites.Length)
+            {
+                lifeSprites[lives].enabled = false; 
+            }
+        }
     }
+    
 }
