@@ -89,5 +89,15 @@ namespace Code.Scripts.Player
             //Debug.Log("Attackkkkkk");
             _player.ChangeState(PlayerStates.Attacking);
         }
+        public virtual void HurtState()
+        {
+            //Debug.Log("Hurt");
+            _player.ChangeState(PlayerStates.Hurt);
+        }
+        public virtual void DeadState()
+        {
+            //Debug.Log("Dead");
+            _player.ChangeState(PlayerStates.Dead);
+        }
     }
 }
