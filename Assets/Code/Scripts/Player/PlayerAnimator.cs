@@ -27,5 +27,7 @@ namespace Code.Scripts.Player
         public const string AIR = "JumpMid";
         public const string JUMP = "JumpSword";
         public const string SWORDATTACK = "Swipe";
+        public const string HURT = "HurtSword";
+        public const string DEATH = "DeathSword";
     }
 }
