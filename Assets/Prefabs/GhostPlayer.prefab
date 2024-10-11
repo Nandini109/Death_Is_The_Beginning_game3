@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9040265230426208576, guid: 6b1809f0784cf1d4e879fc3f437f620a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -189,6 +189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Data>k__BackingField: {fileID: 11400000, guid: 77d172bdecbc71a4182f0d1be64cfb0a, type: 2}
   <EventData>k__BackingField: {fileID: 11400000, guid: d37e1f31d83c6414996d598407033922, type: 2}
+  flipJumpForce: 5
+  lifeSprites: []
 --- !u!114 &4625728649633815387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +213,7 @@ Animator:
   m_GameObject: {fileID: 4881846652811120294}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: -4863070169154621064, guid: 81bdd99a70ccec940b826607b50e1288, type: 3}
+  m_Controller: {fileID: 9100000, guid: ee3470686f6bd074991b8bae844d004f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
