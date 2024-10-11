@@ -22,10 +22,12 @@ namespace Code.Scripts.Player
     public static class PlayerAnimationConstants
     {
         public const string IDLE = "IdleSword";
-        public const string WALK = "WalkSword";
-        public const string RUN = "RunSword";
+        public const string WALK = "WalkSw Loop";
+        public const string RUN = "RunSw Loop";
         public const string AIR = "JumpMid";
         public const string JUMP = "JumpSword";
         public const string SWORDATTACK = "Swipe";
+        public const string HURT = "HurtSword";
+        public const string DEATH = "DeathSword";
     }
 }
