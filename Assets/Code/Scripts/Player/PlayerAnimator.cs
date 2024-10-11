@@ -21,11 +21,11 @@ namespace Code.Scripts.Player
 
     public static class PlayerAnimationConstants
     {
-        public const string IDLE = "Idle";
-        public const string WALK = "Walk";
-        public const string RUN = "Run";
+        public const string IDLE = "IdleSword";
+        public const string WALK = "WalkSw Loop";
+        public const string RUN = "RunSw Loop";
         public const string AIR = "JumpMid";
-        public const string JUMP = "Jump";
-        public const string SWORDATTACK = "SwordAttack";
+        public const string JUMP = "JumpSword";
+        public const string SWORDATTACK = "Swipe";
     }
 }

@@ -194,7 +194,7 @@ namespace Code.Scripts.Player
             {
                 Debug.Log("Player Flipped");
                 RB.gravityScale = flippedGravity;
-                transform.localScale = new Vector3(1, -1, 1);
+                transform.localScale = new Vector3(5, -5, 1);
                 RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse);
                 isFlipped = true;
             }
@@ -202,7 +202,7 @@ namespace Code.Scripts.Player
             {
                 Debug.Log("Player is back to normal");
                 RB.gravityScale = normalGravity;
-                transform.localScale = new Vector3(1, 1, 1);
+                transform.localScale = new Vector3(5, 5, 1);
                 RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);
                 isFlipped = false;
             }
@@ -213,6 +213,7 @@ namespace Code.Scripts.Player
             if (_currentState is PlayerRunState || _currentState is PlayerIdleState)
             {
                 ((PlayerBaseState)_currentState).SwordAttack();
+                Debug.Log("Attack");
                 isAttacking = true;
             }
         }
