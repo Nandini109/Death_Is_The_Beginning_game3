@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 4625728649633815387}
   - component: {fileID: 1353309265579854613}
   - component: {fileID: 1279760136925811184}
-  - component: {fileID: 4044707921886576637}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -86,10 +85,10 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3, y: 2.625}
+  m_Size: {x: 0.11, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &2998557912739849838
@@ -126,10 +125,10 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.09, y: 0.62762374}
   m_SpriteTilingProperty:
-    border: {x: 1.28125, y: 0, z: 1.3125, w: 1.34375}
-    pivot: {x: 0.49471632, y: 0.0020128656}
-    oldSize: {x: 3, y: 2.625}
-    newSize: {x: 3, y: 2.625}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.6363636, y: -0.04}
+    oldSize: {x: 0.11, y: 0.25}
+    newSize: {x: 0.11, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -191,6 +190,7 @@ MonoBehaviour:
   <Data>k__BackingField: {fileID: 11400000, guid: 77d172bdecbc71a4182f0d1be64cfb0a, type: 2}
   <EventData>k__BackingField: {fileID: 11400000, guid: d37e1f31d83c6414996d598407033922, type: 2}
   flipJumpForce: 5
+  lifeSprites: []
 --- !u!114 &4625728649633815387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +213,7 @@ Animator:
   m_GameObject: {fileID: 4881846652811120294}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1eae7f6c5a84e4c4ea1157e8f771d449, type: 2}
+  m_Controller: {fileID: 9100000, guid: ee3470686f6bd074991b8bae844d004f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -242,16 +242,3 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &4044707921886576637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4881846652811120294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04dc2c4df16b0564cb76cfa769f014b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  climbSpeed: 2
