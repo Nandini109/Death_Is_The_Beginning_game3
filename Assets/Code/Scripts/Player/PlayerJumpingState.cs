@@ -10,9 +10,12 @@ namespace Code.Scripts.Player
         }
         public override void Enter()
         {
-            
+            bool isFlipped = _player.Data.IsFlipped;
             _player.Data.GravityMultiplier = _player.Data.DefaultGravityScale;
-            var jumpSpeed = Mathf.Sqrt(-2f * Physics2D.gravity.y * _player.RB.gravityScale * _player.Data.JumpHeight);
+
+            var jumpDirection = isFlipped ? -1f : 1f;
+            var jumpSpeed = Mathf.Sqrt(2f * Mathf.Abs(Physics2D.gravity.y * _player.RB.gravityScale * _player.Data.JumpHeight)) * jumpDirection;
+            Debug.Log("JUMMMMPPPP");
             _player.Data.IsJumping = true;
             _player.DelayGroundCheck();
             _player.RB.velocity = new Vector2(_player.RB.velocity.x, jumpSpeed);
@@ -20,6 +23,8 @@ namespace Code.Scripts.Player
             _player.PlayerAnim.PlayAnimation(PlayerAnimationConstants.JUMP);
             _player.Data.TimeEnteredAir = Time.time;
             _player.EventData.HandlePlayerJumps(_player);
+
+            
             
         }
 
@@ -56,9 +61,9 @@ namespace Code.Scripts.Player
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            
-            _player.RB.velocity = new Vector2(_player.RB.velocity.x,
-                _player.RB.velocity.y);
+
+            _player.RB.velocity = new Vector2(_player.RB.velocity.x, _player.RB.velocity.y);
+
             if (_player.IsGrounded)
             {
                 _player.ChangeState(Mathf.Abs(_player.Data.MovementDirection) > 0.01f
