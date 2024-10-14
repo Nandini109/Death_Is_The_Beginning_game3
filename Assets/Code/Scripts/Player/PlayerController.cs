@@ -189,27 +189,54 @@ namespace Code.Scripts.Player
         {
             Debug.Log("I'm trying to flip the player");
 
-            if (_groundCheck.IsGrounded == true)
+            if (_groundCheck.IsGrounded)
             {
+
+                if (isFlipped == false)
+                {
+                    //flip player
+                    Debug.Log("Player Flipped");
+                    RB.gravityScale = flippedGravity;
+                    transform.localScale = new Vector3(5, -5, 1); 
+                    RB.velocity = new Vector2(RB.velocity.x, 0); 
+                    RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse); 
+                    AdjustPositionOnFlip(Vector2.down);  
+
+                    isFlipped = true;
+                }
+                else
+                {
+                    //flip player to normal 
+                    Debug.Log("Player is back to normal");          
+                    RB.gravityScale = normalGravity;
+                    transform.localScale = new Vector3(5, 5, 1);            
+                    RB.velocity = new Vector2(RB.velocity.x, 0); 
+                    RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);     
+                    AdjustPositionOnFlip(Vector2.up); 
+
+                    isFlipped = false;
+                }
+            }
+        }
+
+
+        private void AdjustPositionOnFlip(Vector2 direction)
+        {
             
-            if (isFlipped == false)
-            {
-                
-                Debug.Log("Player Flipped");
-                RB.gravityScale = flippedGravity;
-                transform.localScale = new Vector3(5, -5, 1);
-                RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse);
-                isFlipped = true;
-                
-            }
-            else
-            {
-                Debug.Log("Player is back to normal");
-                RB.gravityScale = normalGravity;
-                transform.localScale = new Vector3(5, 5, 1);
-                RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);
-                isFlipped = false;
-            }
+            float rayLength = 0.01f;
+            
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, rayLength);
+            
+            if (hit.collider != null)
+            {                
+                if (isFlipped)
+                {
+                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+                }
+                else
+                {
+                    transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+                }
             }
         }
 
