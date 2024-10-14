@@ -15,7 +15,7 @@ public class IceEnemy : MonoBehaviour
     [SerializeField] private float CoolDownTime = 2f;
     [SerializeField] private float timeToLand = 1f;
     [SerializeField] private float health = 100f;
-
+    [SerializeField] private float moveSpeed = 2f;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -34,15 +34,18 @@ public class IceEnemy : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         Debug.Log(distanceToPlayer);
-        if(distanceToPlayer <= punchRange )
+
+        
+
+        if (distanceToPlayer >= 1f && distanceToPlayer <= 3f)
         {
             PunchAttack();
         }
-        else if(distanceToPlayer <= iceCrystalRange )
+        else if(distanceToPlayer >= 4f && distanceToPlayer <= 6f)
         {
             IceCrystalAttck();
         }
-        else if(distanceToPlayer <= jumpRange )
+        else if(distanceToPlayer >= 8f && distanceToPlayer <= 11f)
         {
             JumpAttack();
         }
@@ -63,6 +66,12 @@ public class IceEnemy : MonoBehaviour
             isAttacking = true;
             animator.SetTrigger("Punch");
             Debug.Log("Punch Coming in");
+
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            if (distanceToPlayer > punchRange)
+            {
+                StartCoroutine(CoolDown());
+            }
         }
     }
 
@@ -83,7 +92,7 @@ public class IceEnemy : MonoBehaviour
         Vector2 startPosition = transform.position;
         Vector2 targetPosition = player.position;
         float timeElapsed = 0f;
-
+        animator.SetTrigger("Fall");
         while (timeElapsed < timeToLand)
         {
             transform.position = Vector2.Lerp(startPosition, targetPosition, timeElapsed / timeToLand);
@@ -115,6 +124,13 @@ public class IceEnemy : MonoBehaviour
         isAttacking = false;
         animator.SetTrigger("CoolDown");
         Debug.Log("I am Cooling down");
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        Debug.Log("Moving towards player");
+        Vector2 direction = (player.position - transform.position).normalized;
+        transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
     }
 
     public void TakeDamage(float damage)
