@@ -63,6 +63,8 @@ namespace Code.Scripts.Player
 
         [SerializeField] private float flipJumpForce = 5f;
         [SerializeField] private Image[] lifeSprites;
+        private float attackDuration = 0.5f;
+        private float attackTimer = 0f;
         public override void ChangeState(State newState)
         {
             base.ChangeState(newState);
@@ -144,6 +146,14 @@ namespace Code.Scripts.Player
             base.Update();
             //Debug.Log(RB.gravityScale);
             EventData.HandlePlayerUpdate(this);
+            if (isAttacking)
+            {
+                attackTimer -= Time.deltaTime;
+                if (attackTimer <= 0)
+                {
+                    isAttacking = false;
+                }
+            }
         }
         protected override void FixedUpdate()
         {
@@ -240,6 +250,7 @@ namespace Code.Scripts.Player
             }
         }
 
+        
         public void OnSwordAttack()
         {
             
@@ -248,12 +259,13 @@ namespace Code.Scripts.Player
                 ((PlayerBaseState)_currentState).SwordAttack();
                 Debug.Log("Attack");
                 isAttacking = true;
-                
+                attackTimer = attackDuration;
             }
         }
         public void OnSwordAttackCancelled()
         {
             Debug.Log("Cancled");
+            
         }
 
         public bool IsAttacking()
@@ -262,16 +274,20 @@ namespace Code.Scripts.Player
         }
         private void OnCollisionEnter2D(Collision2D collision)
         {
+            
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
             if (isAttacking == true)
             {
                 if (collision.gameObject.CompareTag("Enemy"))
                 {
-                    //Debug.Log("Dieeeee");
+                    Debug.Log("Dieeeee");
                     isAttacking = false;
                 }
             }
         }
-
         private void UpdateLivesUI()
         {
             if (lives >= 0 && lives < lifeSprites.Length)
