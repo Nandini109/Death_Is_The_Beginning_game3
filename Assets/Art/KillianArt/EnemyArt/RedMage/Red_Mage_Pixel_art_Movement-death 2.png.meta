@@ -1,0 +1,2688 @@
+fileFormatVersion: 2
+guid: e412e78277ecbb24c93da60d768329fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f050e8410f94c4fbee5d9ef8184363
+      internalID: 1591252054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f19249ac349df44786777646b73e284
+      internalID: -1411220960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded6913e11c0394469cb3aa3da5f4859
+      internalID: -125998085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b335125f0f8021498e067cb15a4d1c9
+      internalID: 637537017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3841448a01ce9b84f9211fff5944a6ab
+      internalID: 832059985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 0
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dd5b1292e8d594ca23ffd30426a57c
+      internalID: -818952115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_6
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04117d462bb906945be60e8f42e4a0aa
+      internalID: -653300393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 0
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8636086850933bf428dfa88d7baea177
+      internalID: -1221006376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_8
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed92a50e434959d43b679325951b087e
+      internalID: 1087222780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae159e18b896624198fde0200fdecaa
+      internalID: 1894937493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_10
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 0
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792617597c625394f905d182e9b72a93
+      internalID: 817446681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_11
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3519d2e6251984b96fd910657be7f3
+      internalID: 532950978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_12
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeb082c049518a478cc1293499dacf9
+      internalID: 868270968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_13
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 0
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c832c43a725194ca38ebb3c5de5c34
+      internalID: -1510326938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_14
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19917a39d56939843b46060e0ae43e96
+      internalID: -1103594825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_15
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8146efd0d3fe64c9e3cc2caa2c6680
+      internalID: -50527107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_16
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49552e78caab3418b0fe10649c9d6a
+      internalID: 1436959453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_17
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 0
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a45e8f95bb4c646a7bc211708433ff
+      internalID: -367085471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_18
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 0
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5d25de90f9e7b4bba3bfa74008ae78
+      internalID: 670895974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_19
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 0
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee3b79203db1b45bef89e89184801a
+      internalID: -1962830769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_20
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 0
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c433718b96b54a4d9ad060c6cf2822a
+      internalID: -1945771841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_21
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 0
+        width: 36
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84590b048810459428ddb587f0b90663
+      internalID: -505110347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_22
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c70f9f0e517f740852a37d55449a87
+      internalID: -410623771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_23
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 0
+        width: 36
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6651924eb992324896cbd3fe693afef
+      internalID: -77753036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_24
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 0
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e508ab6a748216e4faa9a1d54a80a51a
+      internalID: -2102276450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_25
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24bff64214c7604596bdbba91525e26
+      internalID: 107915281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_26
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46527078ba1f91e49960ed968abde8fe
+      internalID: 594094346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_27
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a7c067c13f3584c8cb50c9a34366d7
+      internalID: -414443542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_28
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46505c0e29366c74d978a1f5c247190b
+      internalID: -689293925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_29
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1abcfde685af40be98aeb0ef4dacb
+      internalID: -1487149912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_30
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5552d5a2e4d747e429d43c9894042905
+      internalID: -1883521084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_31
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdf95224e6e2ea4691fd9ea82c3aa59
+      internalID: 61712107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_32
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c823d82df9ace5f40a6c284edf65b49e
+      internalID: -1630803546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_33
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6903a0d39ab65f74886f8e70048e55f4
+      internalID: -710481881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_34
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d97a3633a6f804788855a90c8058a6
+      internalID: -423479025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_35
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcaccd15c2841c47ab448f8982d2b44
+      internalID: 64824533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_36
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02df0ddf79eea7346bad26745f5ecd9d
+      internalID: 486472364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_37
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf45dba50bdc2014d86cb495f4e4aef7
+      internalID: -775345662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_38
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f85171c6570b74886322dbaef6a77d
+      internalID: 2018908465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_39
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 0
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6264e8ca558c89f41932765f5a59e4f1
+      internalID: -37138125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_40
+      rect:
+        serializedVersion: 2
+        x: 5163
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15af5d606efc6b4c8962b05bd4ceb64
+      internalID: 261691489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_41
+      rect:
+        serializedVersion: 2
+        x: 5287
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e044ed48226f3d4db741a0038d15cb5
+      internalID: 1511410194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_42
+      rect:
+        serializedVersion: 2
+        x: 5419
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074a4776b95e0f449fd5a13edf65095
+      internalID: -409596498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_43
+      rect:
+        serializedVersion: 2
+        x: 5543
+        y: 0
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba9af8491f3b54e9d034ff8ec437da
+      internalID: 1207598159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_44
+      rect:
+        serializedVersion: 2
+        x: 5674
+        y: 0
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca86c78214ec3c14ca0afd42ad83b829
+      internalID: -1084618965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_45
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 0
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b764f32d21d40fe4b8ee99c30dccc983
+      internalID: 156531466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_46
+      rect:
+        serializedVersion: 2
+        x: 5923
+        y: 0
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f525731ef3deb4dae99f0bb225e3d9
+      internalID: 1011023474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_47
+      rect:
+        serializedVersion: 2
+        x: 6055
+        y: 0
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d92c21efc473542bc8dcb044a4c953
+      internalID: 2007268723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_48
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 0
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bae46cdf422f148933385e39f7d9f1
+      internalID: -442009608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_49
+      rect:
+        serializedVersion: 2
+        x: 6303
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea36b96447cc0e40a12b41599565803
+      internalID: -1405320959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_50
+      rect:
+        serializedVersion: 2
+        x: 6435
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c72a592a6b29041bfa9d6311f50f54
+      internalID: 1894038066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_51
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688acf07d09fe54b889dc078e1a599f
+      internalID: 899828319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_52
+      rect:
+        serializedVersion: 2
+        x: 6691
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c713f138b99ff4fb7c143bfb2c782a
+      internalID: 1831185448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_53
+      rect:
+        serializedVersion: 2
+        x: 6815
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee6354f90e79dc4ab62a01526437ee8
+      internalID: -756899054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_54
+      rect:
+        serializedVersion: 2
+        x: 6947
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c728ab4eb004b4cadfd290f77c32b9
+      internalID: -1607766695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_55
+      rect:
+        serializedVersion: 2
+        x: 7071
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53073672a6f7f394f9e8290928b73c52
+      internalID: -1400507134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_56
+      rect:
+        serializedVersion: 2
+        x: 7203
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de1aa9872e591469040446006e2c54
+      internalID: -258104909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_57
+      rect:
+        serializedVersion: 2
+        x: 7327
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a8088841bb02344b2bf604ddabee0b
+      internalID: -1489421728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_58
+      rect:
+        serializedVersion: 2
+        x: 7459
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95e67fbe44cb1e4da55ee9bc1ed0952
+      internalID: -60372712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_59
+      rect:
+        serializedVersion: 2
+        x: 7583
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cadeb2cf3d9ad94f9ed6b382fc89668
+      internalID: 1493015560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_60
+      rect:
+        serializedVersion: 2
+        x: 7715
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8b340a7b15349459684df5379367f5
+      internalID: -1581146305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_61
+      rect:
+        serializedVersion: 2
+        x: 7839
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b10437dd28c2b4db8563c39bcf533a
+      internalID: 1819845089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_62
+      rect:
+        serializedVersion: 2
+        x: 7971
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22608d8db36f72041a465b5bc0cbc326
+      internalID: -1981903184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_63
+      rect:
+        serializedVersion: 2
+        x: 8095
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5999ed50f18042449b022d9937cdcaf4
+      internalID: -1776021456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_64
+      rect:
+        serializedVersion: 2
+        x: 8227
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6e7c7ff6a67134483845e174192a59
+      internalID: -1735248852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_65
+      rect:
+        serializedVersion: 2
+        x: 8351
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce62689249bb6d48b23d4930ab01246
+      internalID: -779945179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_66
+      rect:
+        serializedVersion: 2
+        x: 8482
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad3b9cd0c05cba4c9bb21deea71bfbd
+      internalID: -246585901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_67
+      rect:
+        serializedVersion: 2
+        x: 8607
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53af088a96d0bf43a97bd1b1e0d59cd
+      internalID: -1513384705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_68
+      rect:
+        serializedVersion: 2
+        x: 8738
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777dee7d9fcefe4b9d00e35c7a587cb
+      internalID: 592637827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_69
+      rect:
+        serializedVersion: 2
+        x: 8863
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc83b884d68db554986221d62aa90625
+      internalID: 1136286278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_70
+      rect:
+        serializedVersion: 2
+        x: 8987
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53df9df9a0c02438ae05bac24ef208
+      internalID: 1270449734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_71
+      rect:
+        serializedVersion: 2
+        x: 9119
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d270c75e763b9b4c871bcc810447514
+      internalID: 638483214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_72
+      rect:
+        serializedVersion: 2
+        x: 9243
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee4ca617e291f498a349d7e5c36e1b
+      internalID: -1543278424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_73
+      rect:
+        serializedVersion: 2
+        x: 9375
+        y: 0
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025a58aee48f874aaff9559a7ed1518
+      internalID: 446795399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_74
+      rect:
+        serializedVersion: 2
+        x: 9499
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656f908e28c9a343809592367ff0b22
+      internalID: 1138263883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_75
+      rect:
+        serializedVersion: 2
+        x: 9631
+        y: 0
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f21ceffd1ee0b43adb2ecb9e2e06cc
+      internalID: 1688529001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_76
+      rect:
+        serializedVersion: 2
+        x: 9755
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48a9eace59084b4f8c9e92630960d44
+      internalID: 102417112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_77
+      rect:
+        serializedVersion: 2
+        x: 9886
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e916a9d05dffcf4eb89aa70bbcf0db7
+      internalID: 217032181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_78
+      rect:
+        serializedVersion: 2
+        x: 10011
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7605408f5f6d5a94a903515505721973
+      internalID: 976181036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_79
+      rect:
+        serializedVersion: 2
+        x: 10142
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0801ba7530764788ccef3d57df9dd
+      internalID: 1196634389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_80
+      rect:
+        serializedVersion: 2
+        x: 10267
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129656278b3d01848949e9344002909a
+      internalID: -1016881551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_81
+      rect:
+        serializedVersion: 2
+        x: 10398
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48af7c857b6f90f4d97c1f19d960e5a2
+      internalID: 764284527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_82
+      rect:
+        serializedVersion: 2
+        x: 10523
+        y: 0
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1c51a5d7a434d47b2ea743ca2c2cf8
+      internalID: 2040235187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_83
+      rect:
+        serializedVersion: 2
+        x: 10654
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1167919311091174f9b8b68721ca65d0
+      internalID: 272755189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_84
+      rect:
+        serializedVersion: 2
+        x: 10779
+        y: 0
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defc72e9605c5c147ae0623a941a81aa
+      internalID: -1326143395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_85
+      rect:
+        serializedVersion: 2
+        x: 10903
+        y: 0
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a388172652c9945b1ab0d4f49f7624
+      internalID: -737837838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_86
+      rect:
+        serializedVersion: 2
+        x: 11035
+        y: 0
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c16464b6ca5c946af5d68f4cea5af2
+      internalID: -1024663849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_87
+      rect:
+        serializedVersion: 2
+        x: 11159
+        y: 0
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b9d8723f0fd5f40b6036e01ee879b3
+      internalID: 2106548627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_88
+      rect:
+        serializedVersion: 2
+        x: 11290
+        y: 0
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e4a6dc3ecf024f8483884b4dd2977
+      internalID: -1815879747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_89
+      rect:
+        serializedVersion: 2
+        x: 11415
+        y: 0
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0ed14898d07f4ba992f51713f81af
+      internalID: -601917106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_90
+      rect:
+        serializedVersion: 2
+        x: 11546
+        y: 0
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bbd74e095d2cc409394e184c751f38
+      internalID: -777118540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_91
+      rect:
+        serializedVersion: 2
+        x: 11671
+        y: 0
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e09bb507a9a17d4ab9f3984339d1479
+      internalID: 1179495290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_92
+      rect:
+        serializedVersion: 2
+        x: 11795
+        y: 0
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a050328c46aa244183962bd5fc558c7
+      internalID: 1818804105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_93
+      rect:
+        serializedVersion: 2
+        x: 11927
+        y: 0
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e874eba099e0104f941ca75bb2dbac0
+      internalID: -922360515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_94
+      rect:
+        serializedVersion: 2
+        x: 12051
+        y: 0
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f165c8434676438016e3bd0d803ec
+      internalID: -945568343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_95
+      rect:
+        serializedVersion: 2
+        x: 12183
+        y: 0
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bbe40b35cccfc43b80e2dcff925a74
+      internalID: 562983672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_96
+      rect:
+        serializedVersion: 2
+        x: 12307
+        y: 0
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe82b2450c8bcf543aee7a72af4b7eac
+      internalID: 302253102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_97
+      rect:
+        serializedVersion: 2
+        x: 12439
+        y: 0
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf7a33cf4dd42c4082843b0e39ef69b
+      internalID: 373117995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_98
+      rect:
+        serializedVersion: 2
+        x: 12563
+        y: 0
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528ff57bb80012848b068e58ceb1ed1a
+      internalID: -1358963330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_99
+      rect:
+        serializedVersion: 2
+        x: 12694
+        y: 0
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c050ad1436a6b6841b9a6e7b7e2c8e81
+      internalID: -637177027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_100
+      rect:
+        serializedVersion: 2
+        x: 12819
+        y: 0
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b3078917f0d5f4cbc28ed84077561e
+      internalID: 1237290113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_101
+      rect:
+        serializedVersion: 2
+        x: 12950
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d6ef68aefe08f4d836adbc918b6aef
+      internalID: 544099095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_102
+      rect:
+        serializedVersion: 2
+        x: 13075
+        y: 0
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65dc95ae08016f458ab0b9e89e2d5d8
+      internalID: 1741821904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_103
+      rect:
+        serializedVersion: 2
+        x: 13206
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d3d900f2d888e41afce99c7534d24c
+      internalID: -2008546341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_104
+      rect:
+        serializedVersion: 2
+        x: 13331
+        y: 0
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef34e816394824e4bbd61aa6056e91e1
+      internalID: -220202222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_105
+      rect:
+        serializedVersion: 2
+        x: 13462
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9fb5cca4eb3b4aa9469c5e15ece92
+      internalID: -805122997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_106
+      rect:
+        serializedVersion: 2
+        x: 13587
+        y: 0
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d13268634d394446a20b64b0a2e90f1
+      internalID: 1966595191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_107
+      rect:
+        serializedVersion: 2
+        x: 13718
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2645ee89600874389614d81c048ce7
+      internalID: -1412563257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_108
+      rect:
+        serializedVersion: 2
+        x: 13843
+        y: 0
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25713650870b2e040bc93a1cb468d1b3
+      internalID: -1467723367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_109
+      rect:
+        serializedVersion: 2
+        x: 13974
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e715ec149adceda429b8da20664ff1cf
+      internalID: -1887200837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_110
+      rect:
+        serializedVersion: 2
+        x: 14098
+        y: 0
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373f4c39a1a90044c9cec1951bb9087e
+      internalID: 1115033152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_111
+      rect:
+        serializedVersion: 2
+        x: 14230
+        y: 0
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db5d3f397830b47ad109ef443851fa
+      internalID: -1739751999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_112
+      rect:
+        serializedVersion: 2
+        x: 14354
+        y: 0
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e28728d4b5b1e94cbfc95ab360c693a
+      internalID: 785192315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_113
+      rect:
+        serializedVersion: 2
+        x: 14486
+        y: 0
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2813d9d81622ec4b88f9d63d1686d1f
+      internalID: -1225620284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_114
+      rect:
+        serializedVersion: 2
+        x: 14610
+        y: 0
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2d5fc42792c6468d4366b6fbf9c96
+      internalID: 1308740406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_115
+      rect:
+        serializedVersion: 2
+        x: 14742
+        y: 0
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b2c73db1bc0e34c8afda27ce9cfb82
+      internalID: -29504385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-death 2_116
+      rect:
+        serializedVersion: 2
+        x: 14866
+        y: 0
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e438e706c00dea1438ac85a30f1a5f80
+      internalID: 1255278093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Red_Mage_Pixel_art_Movement-death 2_0: 1591252054
+      Red_Mage_Pixel_art_Movement-death 2_1: -1411220960
+      Red_Mage_Pixel_art_Movement-death 2_10: 817446681
+      Red_Mage_Pixel_art_Movement-death 2_100: 1237290113
+      Red_Mage_Pixel_art_Movement-death 2_101: 544099095
+      Red_Mage_Pixel_art_Movement-death 2_102: 1741821904
+      Red_Mage_Pixel_art_Movement-death 2_103: -2008546341
+      Red_Mage_Pixel_art_Movement-death 2_104: -220202222
+      Red_Mage_Pixel_art_Movement-death 2_105: -805122997
+      Red_Mage_Pixel_art_Movement-death 2_106: 1966595191
+      Red_Mage_Pixel_art_Movement-death 2_107: -1412563257
+      Red_Mage_Pixel_art_Movement-death 2_108: -1467723367
+      Red_Mage_Pixel_art_Movement-death 2_109: -1887200837
+      Red_Mage_Pixel_art_Movement-death 2_11: 532950978
+      Red_Mage_Pixel_art_Movement-death 2_110: 1115033152
+      Red_Mage_Pixel_art_Movement-death 2_111: -1739751999
+      Red_Mage_Pixel_art_Movement-death 2_112: 785192315
+      Red_Mage_Pixel_art_Movement-death 2_113: -1225620284
+      Red_Mage_Pixel_art_Movement-death 2_114: 1308740406
+      Red_Mage_Pixel_art_Movement-death 2_115: -29504385
+      Red_Mage_Pixel_art_Movement-death 2_116: 1255278093
+      Red_Mage_Pixel_art_Movement-death 2_12: 868270968
+      Red_Mage_Pixel_art_Movement-death 2_13: -1510326938
+      Red_Mage_Pixel_art_Movement-death 2_14: -1103594825
+      Red_Mage_Pixel_art_Movement-death 2_15: -50527107
+      Red_Mage_Pixel_art_Movement-death 2_16: 1436959453
+      Red_Mage_Pixel_art_Movement-death 2_17: -367085471
+      Red_Mage_Pixel_art_Movement-death 2_18: 670895974
+      Red_Mage_Pixel_art_Movement-death 2_19: -1962830769
+      Red_Mage_Pixel_art_Movement-death 2_2: -125998085
+      Red_Mage_Pixel_art_Movement-death 2_20: -1945771841
+      Red_Mage_Pixel_art_Movement-death 2_21: -505110347
+      Red_Mage_Pixel_art_Movement-death 2_22: -410623771
+      Red_Mage_Pixel_art_Movement-death 2_23: -77753036
+      Red_Mage_Pixel_art_Movement-death 2_24: -2102276450
+      Red_Mage_Pixel_art_Movement-death 2_25: 107915281
+      Red_Mage_Pixel_art_Movement-death 2_26: 594094346
+      Red_Mage_Pixel_art_Movement-death 2_27: -414443542
+      Red_Mage_Pixel_art_Movement-death 2_28: -689293925
+      Red_Mage_Pixel_art_Movement-death 2_29: -1487149912
+      Red_Mage_Pixel_art_Movement-death 2_3: 637537017
+      Red_Mage_Pixel_art_Movement-death 2_30: -1883521084
+      Red_Mage_Pixel_art_Movement-death 2_31: 61712107
+      Red_Mage_Pixel_art_Movement-death 2_32: -1630803546
+      Red_Mage_Pixel_art_Movement-death 2_33: -710481881
+      Red_Mage_Pixel_art_Movement-death 2_34: -423479025
+      Red_Mage_Pixel_art_Movement-death 2_35: 64824533
+      Red_Mage_Pixel_art_Movement-death 2_36: 486472364
+      Red_Mage_Pixel_art_Movement-death 2_37: -775345662
+      Red_Mage_Pixel_art_Movement-death 2_38: 2018908465
+      Red_Mage_Pixel_art_Movement-death 2_39: -37138125
+      Red_Mage_Pixel_art_Movement-death 2_4: 832059985
+      Red_Mage_Pixel_art_Movement-death 2_40: 261691489
+      Red_Mage_Pixel_art_Movement-death 2_41: 1511410194
+      Red_Mage_Pixel_art_Movement-death 2_42: -409596498
+      Red_Mage_Pixel_art_Movement-death 2_43: 1207598159
+      Red_Mage_Pixel_art_Movement-death 2_44: -1084618965
+      Red_Mage_Pixel_art_Movement-death 2_45: 156531466
+      Red_Mage_Pixel_art_Movement-death 2_46: 1011023474
+      Red_Mage_Pixel_art_Movement-death 2_47: 2007268723
+      Red_Mage_Pixel_art_Movement-death 2_48: -442009608
+      Red_Mage_Pixel_art_Movement-death 2_49: -1405320959
+      Red_Mage_Pixel_art_Movement-death 2_5: -818952115
+      Red_Mage_Pixel_art_Movement-death 2_50: 1894038066
+      Red_Mage_Pixel_art_Movement-death 2_51: 899828319
+      Red_Mage_Pixel_art_Movement-death 2_52: 1831185448
+      Red_Mage_Pixel_art_Movement-death 2_53: -756899054
+      Red_Mage_Pixel_art_Movement-death 2_54: -1607766695
+      Red_Mage_Pixel_art_Movement-death 2_55: -1400507134
+      Red_Mage_Pixel_art_Movement-death 2_56: -258104909
+      Red_Mage_Pixel_art_Movement-death 2_57: -1489421728
+      Red_Mage_Pixel_art_Movement-death 2_58: -60372712
+      Red_Mage_Pixel_art_Movement-death 2_59: 1493015560
+      Red_Mage_Pixel_art_Movement-death 2_6: -653300393
+      Red_Mage_Pixel_art_Movement-death 2_60: -1581146305
+      Red_Mage_Pixel_art_Movement-death 2_61: 1819845089
+      Red_Mage_Pixel_art_Movement-death 2_62: -1981903184
+      Red_Mage_Pixel_art_Movement-death 2_63: -1776021456
+      Red_Mage_Pixel_art_Movement-death 2_64: -1735248852
+      Red_Mage_Pixel_art_Movement-death 2_65: -779945179
+      Red_Mage_Pixel_art_Movement-death 2_66: -246585901
+      Red_Mage_Pixel_art_Movement-death 2_67: -1513384705
+      Red_Mage_Pixel_art_Movement-death 2_68: 592637827
+      Red_Mage_Pixel_art_Movement-death 2_69: 1136286278
+      Red_Mage_Pixel_art_Movement-death 2_7: -1221006376
+      Red_Mage_Pixel_art_Movement-death 2_70: 1270449734
+      Red_Mage_Pixel_art_Movement-death 2_71: 638483214
+      Red_Mage_Pixel_art_Movement-death 2_72: -1543278424
+      Red_Mage_Pixel_art_Movement-death 2_73: 446795399
+      Red_Mage_Pixel_art_Movement-death 2_74: 1138263883
+      Red_Mage_Pixel_art_Movement-death 2_75: 1688529001
+      Red_Mage_Pixel_art_Movement-death 2_76: 102417112
+      Red_Mage_Pixel_art_Movement-death 2_77: 217032181
+      Red_Mage_Pixel_art_Movement-death 2_78: 976181036
+      Red_Mage_Pixel_art_Movement-death 2_79: 1196634389
+      Red_Mage_Pixel_art_Movement-death 2_8: 1087222780
+      Red_Mage_Pixel_art_Movement-death 2_80: -1016881551
+      Red_Mage_Pixel_art_Movement-death 2_81: 764284527
+      Red_Mage_Pixel_art_Movement-death 2_82: 2040235187
+      Red_Mage_Pixel_art_Movement-death 2_83: 272755189
+      Red_Mage_Pixel_art_Movement-death 2_84: -1326143395
+      Red_Mage_Pixel_art_Movement-death 2_85: -737837838
+      Red_Mage_Pixel_art_Movement-death 2_86: -1024663849
+      Red_Mage_Pixel_art_Movement-death 2_87: 2106548627
+      Red_Mage_Pixel_art_Movement-death 2_88: -1815879747
+      Red_Mage_Pixel_art_Movement-death 2_89: -601917106
+      Red_Mage_Pixel_art_Movement-death 2_9: 1894937493
+      Red_Mage_Pixel_art_Movement-death 2_90: -777118540
+      Red_Mage_Pixel_art_Movement-death 2_91: 1179495290
+      Red_Mage_Pixel_art_Movement-death 2_92: 1818804105
+      Red_Mage_Pixel_art_Movement-death 2_93: -922360515
+      Red_Mage_Pixel_art_Movement-death 2_94: -945568343
+      Red_Mage_Pixel_art_Movement-death 2_95: 562983672
+      Red_Mage_Pixel_art_Movement-death 2_96: 302253102
+      Red_Mage_Pixel_art_Movement-death 2_97: 373117995
+      Red_Mage_Pixel_art_Movement-death 2_98: -1358963330
+      Red_Mage_Pixel_art_Movement-death 2_99: -637177027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
