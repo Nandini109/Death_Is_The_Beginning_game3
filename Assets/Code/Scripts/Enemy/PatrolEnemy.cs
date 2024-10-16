@@ -47,16 +47,23 @@ public class PatrolEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+        
 
         
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+
         if (playerController != null)
-        {       
-            if (playerController.IsAttacking())  
+        {
+            if (playerController.IsAttacking())
             {
-                
+
                 Debug.Log("Patrol enemy defeated by player!");
-                Destroy(gameObject);  
+                Destroy(gameObject);
             }
             else
             {

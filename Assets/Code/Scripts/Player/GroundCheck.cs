@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 namespace Code.Scripts.Player
 {
@@ -12,6 +13,8 @@ namespace Code.Scripts.Player
         public event Action<bool> GroundChanged;
         private bool _isGrounded = false;
         private float _timeSinceDelay;
+
+        private PlayerController _playerController;
         public bool IsGrounded
         {
             get
@@ -35,14 +38,18 @@ namespace Code.Scripts.Player
         }
         void Start()
         {
-            
+            _playerController = GetComponent<PlayerController>();
         }
 
         void Update()
         {
             if (Time.time - _timeSinceDelay < _groundCheckDelay)
                 return;
-            IsGrounded = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer) || Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer);
+
+            Vector2 groundCheckDirection = _playerController.Data.IsFlipped ? Vector2.up : Vector2.down;
+            //IsGrounded = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer) || Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer);
+            IsGrounded = Physics2D.Raycast(transform.position + _colliderOffset, groundCheckDirection, _groundCheckDistance, _groundLayer) ||
+                         Physics2D.Raycast(transform.position - _colliderOffset, groundCheckDirection, _groundCheckDistance, _groundLayer);
         }
     }
 }
