@@ -110,20 +110,24 @@ public class FlyingAttackEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision Detected");
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
 
-        if (collision.gameObject.CompareTag("Player"))
+        if(playerController != null)
         {
             if (playerController.IsAttacking())
             {
-                Debug.Log("Player Killed Flying Enemy");
-                Destroy(gameObject);  
+                Destroy(gameObject);
+                Debug.Log("Flying Enemy die");
             }
             else
             {
                 playerController.Death();
-                Debug.Log("Player hit by flying enemy and dies!");
+                Debug.Log("Player hit by flyinh enemy");
             }
         }
     }

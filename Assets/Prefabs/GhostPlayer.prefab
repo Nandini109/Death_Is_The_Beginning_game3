@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1279760136925811184}
   m_Layer: 0
   m_Name: GhostPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,7 +190,10 @@ MonoBehaviour:
   <Data>k__BackingField: {fileID: 11400000, guid: 77d172bdecbc71a4182f0d1be64cfb0a, type: 2}
   <EventData>k__BackingField: {fileID: 11400000, guid: d37e1f31d83c6414996d598407033922, type: 2}
   flipJumpForce: 5
-  lifeSprites: []
+  lifeSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &4625728649633815387
 MonoBehaviour:
   m_ObjectHideFlags: 0

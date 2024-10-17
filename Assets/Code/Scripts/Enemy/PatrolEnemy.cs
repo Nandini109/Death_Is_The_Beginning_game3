@@ -9,6 +9,7 @@ public class PatrolEnemy : MonoBehaviour
     [SerializeField] private Transform startPoint;
     [SerializeField] private Transform endPoint;
     [SerializeField] private Transform enemyObject;
+    [SerializeField] private GameObject CoinPrefab;
 
     int EnemyDirection = 1;
 
@@ -44,19 +45,19 @@ public class PatrolEnemy : MonoBehaviour
             Gizmos.DrawLine(enemyObject.transform.position, endPoint.position);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
 
-        
         if (playerController != null)
-        {       
-            if (playerController.IsAttacking())  
+        {
+            if (playerController.IsAttacking())
             {
-                
+
                 Debug.Log("Patrol enemy defeated by player!");
-                Destroy(gameObject);  
+                Destroy(gameObject);
+                var coin = Instantiate(CoinPrefab, enemyObject.position, CoinPrefab.transform.rotation);
+
             }
             else
             {

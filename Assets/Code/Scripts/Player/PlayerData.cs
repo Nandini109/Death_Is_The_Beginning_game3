@@ -6,7 +6,7 @@ namespace Code.Scripts.Player
     [CreateAssetMenu(fileName = "PlayerData", menuName = "SOs/PlayerData", order = 0)]
     public class PlayerData : ScriptableObject
     {
-     
+        
         [field: SerializeField, Range(0f, 20f),Header("Movement")] public float MovementSpeed { get; set; } = 5f;
         
         [field: SerializeField, Range(1f, 20f)] public float MaxAcceleration { get; private set; } = 50f;
@@ -45,6 +45,7 @@ namespace Code.Scripts.Player
         [HideInInspector]public float Acceleration { get; set; }
         [HideInInspector]public Vector2 DesiredVelocity { get; set; }
 
+        public bool IsFlipped { get; set; }
 
         private void OnEnable()
         {
