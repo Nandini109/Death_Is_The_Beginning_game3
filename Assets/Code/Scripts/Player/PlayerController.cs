@@ -199,7 +199,7 @@ namespace Code.Scripts.Player
             ((PlayerBaseState)_currentState).DeadState();
 
             EventData.HandlePlayerDeath(this);
-            Destroy(this);
+            Destroy(gameObject);
         }
 
         private void Respawn()
