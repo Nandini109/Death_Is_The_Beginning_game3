@@ -9,6 +9,8 @@ using static Cinemachine.DocumentationSortingAttribute;
 using static UnityEditor.Experimental.GraphView.GraphView;
 using State = Code.Scripts.StateMachine.State;
 using UnityEngine.UI;
+using UnityEditorInternal;
+using UnityEngine.SceneManagement;
 
 namespace Code.Scripts.Player
 {
@@ -199,7 +201,13 @@ namespace Code.Scripts.Player
             ((PlayerBaseState)_currentState).DeadState();
 
             EventData.HandlePlayerDeath(this);
+            LoadLooseScene();
             Destroy(gameObject);
+        }
+
+        private void LoadLooseScene()
+        {
+            SceneManager.LoadScene("LooseScene");
         }
 
         private void Respawn()
