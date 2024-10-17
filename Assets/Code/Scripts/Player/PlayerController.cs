@@ -213,6 +213,7 @@ namespace Code.Scripts.Player
                     AdjustPositionOnFlip(Vector2.down);  
 
                     isFlipped = true;
+                    Data.IsFlipped = true;
                 }
                 else
                 {
@@ -225,6 +226,7 @@ namespace Code.Scripts.Player
                     AdjustPositionOnFlip(Vector2.up); 
 
                     isFlipped = false;
+                    Data.IsFlipped= false;
                 }
             }
         }
