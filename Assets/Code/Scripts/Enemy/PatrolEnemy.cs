@@ -56,8 +56,13 @@ public class PatrolEnemy : MonoBehaviour
 
                 Debug.Log("Patrol enemy defeated by player!");
                 Destroy(gameObject);
-                var coin = Instantiate(CoinPrefab, enemyObject.position, CoinPrefab.transform.rotation);
-
+               
+                float coinSpacing = 0.8f;
+                for (int i = 0; i < 3; i++)
+                {                   
+                    Vector2 coinPosition = (Vector2)enemyObject.position + new Vector2(i * coinSpacing, 0);
+                    Instantiate(CoinPrefab, coinPosition, CoinPrefab.transform.rotation);
+                }
             }
             else
             {
