@@ -52,11 +52,7 @@ public class PatrolEnemy : MonoBehaviour
         if (playerController != null)
         {
             if (playerController.IsAttacking())
-            {
-
-                Debug.Log("Patrol enemy defeated by player!");
-                Destroy(gameObject);
-               
+            {                         
                 float coinSpacing = 0.8f;
                 for (int i = 0; i < 3; i++)
                 {                   
