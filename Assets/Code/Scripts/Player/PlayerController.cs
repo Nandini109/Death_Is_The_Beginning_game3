@@ -185,7 +185,7 @@ namespace Code.Scripts.Player
         private void ActualDeath()
         {
             EventData.HandlePlayerDeath(this);
-            Destroy(this);
+            Destroy(gameObject);
         }
 
         private void Respawn()
