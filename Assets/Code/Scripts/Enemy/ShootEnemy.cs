@@ -11,6 +11,7 @@ public class ShootEnemy : MonoBehaviour
     [SerializeField] private float fireRate = 2f;   
     [SerializeField] private Transform pivotPoint;
     [SerializeField] private float rotationSpeed = 3f;
+    [SerializeField] private GameObject CoinPrefab;
     private void Start()
     {
         
@@ -63,6 +64,12 @@ public class ShootEnemy : MonoBehaviour
 
                 Debug.Log("Patrol enemy defeated by player!");
                 Destroy(gameObject);
+                float coinSpacing = 0.8f;
+                for (int i = 0; i < 6; i++)
+                {
+                    Vector2 coinPosition = (Vector2)gameObject.transform.position + new Vector2(i * coinSpacing, 0);
+                    Instantiate(CoinPrefab, coinPosition, CoinPrefab.transform.rotation);
+                }
             }
             else
             {
