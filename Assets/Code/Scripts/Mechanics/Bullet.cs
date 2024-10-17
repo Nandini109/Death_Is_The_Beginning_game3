@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(UnityEngine.Collision2D collision)
     {
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
 

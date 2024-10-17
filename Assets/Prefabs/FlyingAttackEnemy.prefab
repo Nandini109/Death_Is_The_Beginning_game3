@@ -204,6 +204,7 @@ MonoBehaviour:
   endPoint: {fileID: 6640375311696884411}
   enemyObject: {fileID: 1912476207656199417}
   player: {fileID: 0}
+  CoinPrefab: {fileID: 0}
   enemySightRange: 5
   attackSpeed: 2
 --- !u!50 &7616211360187793538

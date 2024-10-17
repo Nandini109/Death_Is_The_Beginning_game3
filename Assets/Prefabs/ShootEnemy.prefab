@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3516886257260907114}
   m_Layer: 0
   m_Name: ShootEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   player: {fileID: 0}
   bulletPrefab: {fileID: 3420657557367516955, guid: a07c63fc834444d44ba5e437244b82cf, type: 3}
   firePoint: {fileID: 8426367653569577554}
-  fireRate: 2
+  fireRate: 4
   pivotPoint: {fileID: 1898214894368842143}
   rotationSpeed: 3
   CoinPrefab: {fileID: 8316407584119880957, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
