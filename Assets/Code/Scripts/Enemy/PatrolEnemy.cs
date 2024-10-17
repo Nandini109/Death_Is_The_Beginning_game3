@@ -44,15 +44,6 @@ public class PatrolEnemy : MonoBehaviour
             Gizmos.DrawLine(enemyObject.transform.position, endPoint.position);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-
-        
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
