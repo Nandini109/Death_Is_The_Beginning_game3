@@ -12,10 +12,10 @@ namespace Code.Scripts.Player
         {
             bool isFlipped = _player.Data.IsFlipped;
             _player.Data.GravityMultiplier = _player.Data.DefaultGravityScale;
-
+            Debug.Log(isFlipped);
             var jumpDirection = isFlipped ? -1f : 1f;
             var jumpSpeed = Mathf.Sqrt(2f * Mathf.Abs(Physics2D.gravity.y * _player.RB.gravityScale * _player.Data.JumpHeight)) * jumpDirection;
-            Debug.Log("JUMMMMPPPP");
+            Debug.Log(jumpSpeed);
             _player.Data.IsJumping = true;
             _player.DelayGroundCheck();
             _player.RB.velocity = new Vector2(_player.RB.velocity.x, jumpSpeed);
