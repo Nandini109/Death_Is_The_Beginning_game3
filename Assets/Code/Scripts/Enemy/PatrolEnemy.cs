@@ -9,6 +9,7 @@ public class PatrolEnemy : MonoBehaviour
     [SerializeField] private Transform startPoint;
     [SerializeField] private Transform endPoint;
     [SerializeField] private Transform enemyObject;
+    [SerializeField] private GameObject CoinPrefab;
 
     int EnemyDirection = 1;
 
@@ -55,6 +56,8 @@ public class PatrolEnemy : MonoBehaviour
 
                 Debug.Log("Patrol enemy defeated by player!");
                 Destroy(gameObject);
+                var coin = Instantiate(CoinPrefab, enemyObject.position, CoinPrefab.transform.rotation);
+
             }
             else
             {
