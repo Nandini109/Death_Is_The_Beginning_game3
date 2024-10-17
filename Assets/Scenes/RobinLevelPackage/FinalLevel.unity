@@ -9347,6 +9347,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1279021501239419697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3716413933132839891, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.259366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701330024991192930, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316407584119880957, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
+      propertyPath: m_Name
+      value: GreekCoin_Frame_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b46850bf877bb84d94a246492ad792c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -9369,3 +9430,4 @@ SceneRoots:
   - {fileID: 1954988789}
   - {fileID: 1591752680}
   - {fileID: 1520500012}
+  - {fileID: 1279021501239419697}
