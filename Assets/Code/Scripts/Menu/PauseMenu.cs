@@ -1,20 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
-    public bool isPaused;
-
-
+    public static bool isPaused;
     // Start is called before the first frame update
     void Start()
     {
         pauseMenu.SetActive(false);
-
     }
 
     // Update is called once per frame
@@ -22,15 +18,16 @@ public class PauseMenu : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(isPaused)
+            if (isPaused )
             {
-                ResumeGame();
+               ResumeGame();
             }
             else
             {
                 PauseGame();
             }
         }
+        
     }
 
     public void PauseGame()
@@ -57,5 +54,4 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    }
-
+}
