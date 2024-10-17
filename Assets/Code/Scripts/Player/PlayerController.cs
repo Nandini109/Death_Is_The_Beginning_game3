@@ -12,7 +12,7 @@ using UnityEngine.UI;
 
 namespace Code.Scripts.Player
 {
-    public enum PlayerStates{Idle, Run, Jumping, InAir, Attacking}
+    public enum PlayerStates{Idle, Run, Jumping, InAir, Attacking, Hurt, Dead}
 
     public class PlayerInfo
     {
@@ -44,10 +44,12 @@ namespace Code.Scripts.Player
         private PlayerJumpingState _jumpingState;
         private PlayerInAirState _inAirState;
         private PlayerAttackState1 _attackState1;
+        private PlayerHurtState _hurtState;
+        private PlayerDeadState _deadState;
 
 
         #endregion
-        
+
         #region Private Variables
         private GroundCheck _groundCheck;
 
@@ -89,6 +91,12 @@ namespace Code.Scripts.Player
                 case PlayerStates.Attacking:
                     ChangeState(_attackState1);
                     break;
+                case PlayerStates.Hurt:
+                    ChangeState(_hurtState);
+                    break;
+                case PlayerStates.Dead:
+                    ChangeState(_deadState);
+                    break;
             }
         }
 
@@ -118,6 +126,8 @@ namespace Code.Scripts.Player
             _jumpingState = new PlayerJumpingState(this);
             _inAirState = new PlayerInAirState(this);
             _attackState1 = new PlayerAttackState1(this);
+            _hurtState = new PlayerHurtState(this);
+            _deadState = new PlayerDeadState(this);
         }
 
         public void HandleMovement(Vector2 movement)
@@ -171,6 +181,8 @@ namespace Code.Scripts.Player
 
             if (lives > 0)
             {
+                ((PlayerBaseState)_currentState).HurtState();
+
                 Respawn();
                 UpdateLivesUI();
                 Debug.Log("Lives left:" + lives);
@@ -184,6 +196,8 @@ namespace Code.Scripts.Player
 
         private void ActualDeath()
         {
+            ((PlayerBaseState)_currentState).DeadState();
+
             EventData.HandlePlayerDeath(this);
             Destroy(gameObject);
         }

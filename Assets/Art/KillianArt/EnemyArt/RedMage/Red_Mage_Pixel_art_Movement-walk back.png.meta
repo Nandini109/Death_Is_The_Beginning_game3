@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 578698ec3088b0340b9e1920ea057908
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7687ca425f0f394f992c4490efba58d
+      internalID: 1904905747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31e53cfdbf52b84890228927d9f1bd5
+      internalID: 731324236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134423ae2fc348e4cbe8bfa9173dcd59
+      internalID: 210216962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 0
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576e0fe102a97c44a3ded1f6b0dbd3e
+      internalID: -52418753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f08f244fe08f4da8c4753c412edd7
+      internalID: -1840769790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411a6b4d878a3cf40815f99e9a8e48d0
+      internalID: -785672715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d62208c2ceba4cb32b60325f9ddbb
+      internalID: -1472438860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_7
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64363cf58ecf8db4fb03ca181ebe9509
+      internalID: -1353574852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ff37f04e8d5384e81226414d323304
+      internalID: -1627011990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b0fc6fd2775634cb1261f2faece154
+      internalID: -73144549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_10
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 0
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5617fe41f4fe634db840f7e810a5a21
+      internalID: 936150327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_11
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba7277f5a076040be1cd48d081cbfd
+      internalID: 1690180359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_12
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d217d79f10384da0cf1b9cca4d91a
+      internalID: 959310109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_13
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aad1ecb480f2a4ab03acaf6b26a06f
+      internalID: 1338640688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_14
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a32a2e5b668e4488258ce5466378ef
+      internalID: 1392630383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_15
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b62586161133fd48882687ad911c96d
+      internalID: -1405244301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_16
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 0
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3682f94d84726f040b9ccdc90bfad9c9
+      internalID: -1424389081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_17
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a64dc76ce9f9840925317b300e30d7
+      internalID: 811501071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_18
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390c9f532836a3a45bce6dbdec69cfb2
+      internalID: -1196694982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_19
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9565145c704429d4186e7943e428fad4
+      internalID: -731089135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_20
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29732ca763047d04c9311ecefb09c91b
+      internalID: -1475252529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_21
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91313325dbb66f4429ce99cdaee8212e
+      internalID: -377219864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_22
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cab34eb1651cc48a94dd6f5316031c
+      internalID: -824310141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_23
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990cd6b1c0b199a49b61ff6e39c347ab
+      internalID: 1685226127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_24
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 0
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01105219c5b494585f4416f8a50080
+      internalID: -1397569861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_25
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5f85149d4410a4a8efdc0dab6af624
+      internalID: -1095149025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_26
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211939329bcafa741af743d5d02df243
+      internalID: -908594413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_27
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce58019a208a9ee49a515751fd4ff072
+      internalID: 2047451228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_28
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417faac2a07b43549b4d168dd14111d0
+      internalID: -2051162786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_29
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2f516c290873b4f81da017fc47c8ce
+      internalID: 470702826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_30
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 0
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed28a751137c640a749563e6d1b09a
+      internalID: 489571580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_31
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c417d505f4255f45a6410962054b435
+      internalID: 211302278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_32
+      rect:
+        serializedVersion: 2
+        x: 4133
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b2f0bd79ed2d240b133be538a65cb8
+      internalID: 1761250118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_33
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c0ed2f5500afc41b8148d9d3a28455
+      internalID: 1153354751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_34
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9458dbfafc940904686e76ff63fe348d
+      internalID: 1752550290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_35
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0a9956e61ddb040a8dc2afe187e38a
+      internalID: 1290604096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_36
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7502ce392095e47b5777676bf7f890
+      internalID: 1485596618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_37
+      rect:
+        serializedVersion: 2
+        x: 4768
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ea0c51210f2c4479d96e3827400634
+      internalID: 1177060911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_38
+      rect:
+        serializedVersion: 2
+        x: 4898
+        y: 0
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3465170355b3de0449289a18e2a7d6f6
+      internalID: -205359320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_39
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea8cc5ef030e1641a8ed176d158bcbc
+      internalID: -105505145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_40
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 0
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ef12f411504734c8b498f689be88ad
+      internalID: -21144578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_41
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 0
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6c2fcdbc6ad26468ae574101f760f0
+      internalID: -1776592969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_42
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbd3cdf29379749bd2139c628a05aa
+      internalID: -336690401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-walk back_43
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 0
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00daff9b1d98b204db211d656d6d2c0c
+      internalID: -1005862666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Red_Mage_Pixel_art_Movement-walk back_0: 1904905747
+      Red_Mage_Pixel_art_Movement-walk back_1: 731324236
+      Red_Mage_Pixel_art_Movement-walk back_10: 936150327
+      Red_Mage_Pixel_art_Movement-walk back_11: 1690180359
+      Red_Mage_Pixel_art_Movement-walk back_12: 959310109
+      Red_Mage_Pixel_art_Movement-walk back_13: 1338640688
+      Red_Mage_Pixel_art_Movement-walk back_14: 1392630383
+      Red_Mage_Pixel_art_Movement-walk back_15: -1405244301
+      Red_Mage_Pixel_art_Movement-walk back_16: -1424389081
+      Red_Mage_Pixel_art_Movement-walk back_17: 811501071
+      Red_Mage_Pixel_art_Movement-walk back_18: -1196694982
+      Red_Mage_Pixel_art_Movement-walk back_19: -731089135
+      Red_Mage_Pixel_art_Movement-walk back_2: 210216962
+      Red_Mage_Pixel_art_Movement-walk back_20: -1475252529
+      Red_Mage_Pixel_art_Movement-walk back_21: -377219864
+      Red_Mage_Pixel_art_Movement-walk back_22: -824310141
+      Red_Mage_Pixel_art_Movement-walk back_23: 1685226127
+      Red_Mage_Pixel_art_Movement-walk back_24: -1397569861
+      Red_Mage_Pixel_art_Movement-walk back_25: -1095149025
+      Red_Mage_Pixel_art_Movement-walk back_26: -908594413
+      Red_Mage_Pixel_art_Movement-walk back_27: 2047451228
+      Red_Mage_Pixel_art_Movement-walk back_28: -2051162786
+      Red_Mage_Pixel_art_Movement-walk back_29: 470702826
+      Red_Mage_Pixel_art_Movement-walk back_3: -52418753
+      Red_Mage_Pixel_art_Movement-walk back_30: 489571580
+      Red_Mage_Pixel_art_Movement-walk back_31: 211302278
+      Red_Mage_Pixel_art_Movement-walk back_32: 1761250118
+      Red_Mage_Pixel_art_Movement-walk back_33: 1153354751
+      Red_Mage_Pixel_art_Movement-walk back_34: 1752550290
+      Red_Mage_Pixel_art_Movement-walk back_35: 1290604096
+      Red_Mage_Pixel_art_Movement-walk back_36: 1485596618
+      Red_Mage_Pixel_art_Movement-walk back_37: 1177060911
+      Red_Mage_Pixel_art_Movement-walk back_38: -205359320
+      Red_Mage_Pixel_art_Movement-walk back_39: -105505145
+      Red_Mage_Pixel_art_Movement-walk back_4: -1840769790
+      Red_Mage_Pixel_art_Movement-walk back_40: -21144578
+      Red_Mage_Pixel_art_Movement-walk back_41: -1776592969
+      Red_Mage_Pixel_art_Movement-walk back_42: -336690401
+      Red_Mage_Pixel_art_Movement-walk back_43: -1005862666
+      Red_Mage_Pixel_art_Movement-walk back_5: -785672715
+      Red_Mage_Pixel_art_Movement-walk back_6: -1472438860
+      Red_Mage_Pixel_art_Movement-walk back_7: -1353574852
+      Red_Mage_Pixel_art_Movement-walk back_8: -1627011990
+      Red_Mage_Pixel_art_Movement-walk back_9: -73144549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
