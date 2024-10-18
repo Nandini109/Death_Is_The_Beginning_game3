@@ -14,4 +14,12 @@ public class CoinCount : MonoBehaviour
         NumberOfCoins++;
         OnCoinsCollected?.Invoke(this);
     }
+
+    public void DeductCoins(int amount)
+    {
+        if (NumberOfCoins >= amount)
+        {
+            NumberOfCoins -= amount;  // Deduct the required amount of coins
+        }
+    }
 }

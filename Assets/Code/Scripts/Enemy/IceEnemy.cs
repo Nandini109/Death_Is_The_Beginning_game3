@@ -3,6 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ D < 4 : jump
+ D > 4 D < 10 : ice crystals
+Every Attack -> Cooldown Move towards player
+ */
 public class IceEnemy : MonoBehaviour
 {
     [SerializeField] private Transform player;

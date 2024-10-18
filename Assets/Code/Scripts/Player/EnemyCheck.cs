@@ -23,19 +23,15 @@ public class EnemyCheck : MonoBehaviour
     {
         if (controller != null)
         {
-            Debug.LogError("MAAAAAAAAAA");
             Debug.LogError(collision.gameObject);
             if (controller.IsAttacking() && collision.gameObject.CompareTag("Enemy"))
             {
-                float coinSpacing = 0.8f;
-                Debug.LogError("MA CHUDAAAAAA");
+                float coinSpacing = 0.8f; 
                 for (int i = 0; i < 3; i++)
                 {
                     Vector2 coinPosition = (Vector2)collision.gameObject.transform.position + new Vector2(i * coinSpacing, 0);
                     Instantiate(CoinPrefab, coinPosition, CoinPrefab.transform.rotation);
                 }
-
-                Debug.LogError("MA CHUDA");
                 Destroy(collision.gameObject);
 
             }

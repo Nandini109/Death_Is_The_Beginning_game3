@@ -113,23 +113,9 @@ public class FlyingAttackEnemy : MonoBehaviour
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
 
         if(playerController != null)
-        {
-            if (playerController.IsAttacking())
-            {
-                Destroy(gameObject);
-                Debug.Log("Flying Enemy die");
-                float coinSpacing = 0.8f;
-                for (int i = 0; i < 5; i++)
-                {
-                    Vector2 coinPosition = (Vector2)enemyObject.position + new Vector2(i * coinSpacing, 0);
-                    Instantiate(CoinPrefab, coinPosition, CoinPrefab.transform.rotation);
-                }
-            }
-            else
-            {
-                playerController.Death();
-                Debug.Log("Player hit by flyinh enemy");
-            }
+        {           
+        playerController.Death();
+        Debug.Log("Player hit by flyinh enemy");    
         }
     }
 
