@@ -1,15 +1,9 @@
 ﻿using System;
 using Code.Scripts.StateMachine;
-using UnityEditor.Animations;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
-using static Cinemachine.DocumentationSortingAttribute;
-using static UnityEditor.Experimental.GraphView.GraphView;
 using State = Code.Scripts.StateMachine.State;
 using UnityEngine.UI;
-using UnityEditorInternal;
 using UnityEngine.SceneManagement;
 
 namespace Code.Scripts.Player

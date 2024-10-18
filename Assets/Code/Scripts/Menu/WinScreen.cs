@@ -21,6 +21,7 @@ public class WinScreen : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log(collision.gameObject);
             SceneManager.LoadScene("WinScreen");
         }
     }

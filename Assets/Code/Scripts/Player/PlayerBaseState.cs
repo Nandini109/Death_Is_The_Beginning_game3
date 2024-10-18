@@ -1,8 +1,6 @@
 ﻿using System;
 using Code.Scripts.StateMachine;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 namespace Code.Scripts.Player
