@@ -10,7 +10,7 @@ public class FlyingAttackEnemy : MonoBehaviour
     [SerializeField] private Transform endPoint;
     [SerializeField] private Transform enemyObject;
     [SerializeField] private Transform player;
-
+    [SerializeField] private GameObject CoinPrefab;
     int EnemyDirection = 1;
 
     [SerializeField] private float enemySightRange = 5f;
@@ -29,14 +29,14 @@ public class FlyingAttackEnemy : MonoBehaviour
         if (IsPlayerInRange())
         {
             
-            FollowPlayer(); // Follow the player if in range
-            isPatrolling = false; // Ensure patrol is not active
+            FollowPlayer(); 
+            isPatrolling = false; 
         }
         else
         {
             if (!isPatrolling)
             {
-                ReturnToStart(); // Return to starting position if not in range
+                ReturnToStart(); 
             }
         }
     }
@@ -108,27 +108,14 @@ public class FlyingAttackEnemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
 
         if(playerController != null)
-        {
-            if (playerController.IsAttacking())
-            {
-                Destroy(gameObject);
-                Debug.Log("Flying Enemy die");
-            }
-            else
-            {
-                playerController.Death();
-                Debug.Log("Player hit by flyinh enemy");
-            }
+        {           
+        playerController.Death();
+        Debug.Log("Player hit by flyinh enemy");    
         }
     }
 

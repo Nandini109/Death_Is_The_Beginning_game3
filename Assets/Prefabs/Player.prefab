@@ -64,7 +64,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03, y: 0.1347459}
+  m_Offset: {x: 0.1035178, y: 0.1347459}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33, y: 0.2582686}
+  m_Size: {x: 0.47703564, y: 0.2582686}
   m_EdgeRadius: 0
 --- !u!1 &4881846652811120294
 GameObject:
@@ -87,13 +87,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5395238903806043078}
   - component: {fileID: 2221814510759185476}
-  - component: {fileID: 2998557912739849838}
   - component: {fileID: 7993859415821204348}
   - component: {fileID: 5879384158197342263}
   - component: {fileID: 5093887561675073742}
   - component: {fileID: 4625728649633815387}
   - component: {fileID: 1353309265579854613}
   - component: {fileID: 1279760136925811184}
+  - component: {fileID: 4100153247861469142}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -169,51 +169,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2998557912739849838
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4881846652811120294}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.001524739, y: 0.1347459}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.6363636, y: -0.04}
-    oldSize: {x: 0.11, y: 0.25}
-    newSize: {x: 0.11, y: 0.25}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1453058, y: 0.2582686}
-  m_EdgeRadius: 0
 --- !u!50 &7993859415821204348
 Rigidbody2D:
   serializedVersion: 4
@@ -323,3 +278,30 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &4100153247861469142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881846652811120294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc90f88d9e87c6a4b872db7fa7af73b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnCoinsCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: UpdateCoinCount
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4100153247861469142}
+          m_ObjectArgumentAssemblyTypeName: CoinCount, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

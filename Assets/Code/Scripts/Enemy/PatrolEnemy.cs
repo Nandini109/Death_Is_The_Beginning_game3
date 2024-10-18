@@ -51,19 +51,9 @@ public class PatrolEnemy : MonoBehaviour
 
         if (playerController != null)
         {
-            if (playerController.IsAttacking())
-            {
-
-                Debug.Log("Patrol enemy defeated by player!");
-                Destroy(gameObject);
-                var coin = Instantiate(CoinPrefab, enemyObject.position, CoinPrefab.transform.rotation);
-
-            }
-            else
-            {
-                playerController.Death();
-                Debug.Log("Player hit by patrol enemy and dies!");
-            }
+            playerController.Death();
+            Debug.Log("Player hit by patrol enemy and dies!");
+            
         }
     }
 }

@@ -9,6 +9,8 @@ using static Cinemachine.DocumentationSortingAttribute;
 using static UnityEditor.Experimental.GraphView.GraphView;
 using State = Code.Scripts.StateMachine.State;
 using UnityEngine.UI;
+using UnityEditorInternal;
+using UnityEngine.SceneManagement;
 
 namespace Code.Scripts.Player
 {
@@ -61,7 +63,8 @@ namespace Code.Scripts.Player
 
         private bool isFlipped = false;
         private bool isAttacking = false;
-        private int lives = 3;       
+        private int lives = 3;
+        private int maxLives = 3;
 
         [SerializeField] private float flipJumpForce = 5f;
         [SerializeField] private Image[] lifeSprites;
@@ -199,7 +202,13 @@ namespace Code.Scripts.Player
             ((PlayerBaseState)_currentState).DeadState();
 
             EventData.HandlePlayerDeath(this);
+            LoadLooseScene();
             Destroy(gameObject);
+        }
+
+        private void LoadLooseScene()
+        {
+            SceneManager.LoadScene("LooseScene");
         }
 
         private void Respawn()
@@ -236,7 +245,7 @@ namespace Code.Scripts.Player
                     RB.gravityScale = normalGravity;
                     transform.localScale = new Vector3(5, 5, 1);            
                     RB.velocity = new Vector2(RB.velocity.x, 0); 
-                    RB.AddForce(new Vector2(0, -flipJumpForce), ForceMode2D.Impulse);     
+                    RB.AddForce(new Vector2(0, flipJumpForce), ForceMode2D.Impulse);     
                     AdjustPositionOnFlip(Vector2.up); 
 
                     isFlipped = false;
@@ -288,27 +297,52 @@ namespace Code.Scripts.Player
         {
             return isAttacking;
         }
-        private void OnCollisionEnter2D(Collision2D collision)
+
+        public void CollectLife()
         {
-            
+
+            if (lives < maxLives)
+            {
+                lives++;
+                UpdateLivesUI();
+            }
         }
 
-        private void OnTriggerEnter2D(Collider2D collision)
+        public void LoseLife()
         {
-            if (isAttacking == true)
+            if (lives > 0)
             {
-                if (collision.gameObject.CompareTag("Enemy"))
-                {
-                    Debug.Log("Dieeeee");
-                    isAttacking = false;
-                }
+                lives--; 
+                UpdateLivesUI(); 
+            }
+
+            if (lives <= 0)
+            {
+                ActualDeath(); 
             }
         }
         private void UpdateLivesUI()
         {
-            if (lives >= 0 && lives < lifeSprites.Length)
+            for (int i = 0; i < lifeSprites.Length; i++)
             {
-                lifeSprites[lives].enabled = false; 
+                if (i < lives)
+                {
+                    lifeSprites[i].enabled = true; 
+                }
+                else
+                {
+                    lifeSprites[i].enabled = false;
+                }
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+
+            if (collision.CompareTag("Life"))  
+            {
+                CollectLife(); 
+                Destroy(collision.gameObject); 
             }
         }
     }

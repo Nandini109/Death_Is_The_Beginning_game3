@@ -14,7 +14,7 @@ public class DrowningWater : MonoBehaviour
     private IEnumerator CheckWaterLevel(Collider2D player)
     {
         PlayerController playerController = player.GetComponent<PlayerController>();
-        originalSpeed = playerController.Data.MovementSpeed;
+        originalSpeed = 4f;
         playerController.Data.MovementSpeed *= speedInWater;
         while (true)
         {

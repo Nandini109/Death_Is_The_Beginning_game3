@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1912476207656199417}
   - component: {fileID: 2724946644831576148}
-  - component: {fileID: 8801555567939796121}
+  - component: {fileID: 7937343874144121958}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -105,8 +105,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 236149611, guid: 5e0232bd398ee144b8001c15ec5ab66b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -116,8 +116,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8801555567939796121
-BoxCollider2D:
+--- !u!58 &7937343874144121958
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -148,19 +148,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.21133333}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Radius: 1.234375
 --- !u!1 &7137579880078588297
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +204,7 @@ MonoBehaviour:
   endPoint: {fileID: 6640375311696884411}
   enemyObject: {fileID: 1912476207656199417}
   player: {fileID: 0}
+  CoinPrefab: {fileID: 0}
   enemySightRange: 5
   attackSpeed: 2
 --- !u!50 &7616211360187793538
