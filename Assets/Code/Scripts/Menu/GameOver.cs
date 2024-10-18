@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
  public void RestartLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Level (Revolution)");
+        SceneManager.LoadScene("Level");
     }
 
     public void GoToMainMenu()
