@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level");
+        SceneManager.LoadScene("Level (Revolution)");
     }
 
     public void GoToSettingsMenu()
