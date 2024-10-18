@@ -15,7 +15,7 @@ public class CoinUI : MonoBehaviour
 
     public void UpdateCoinCount(CoinCount ringsCount)
     {
-        //rings collect UI
+       
         coinsCountText.text = ringsCount.NumberOfCoins.ToString();
     }
 }
