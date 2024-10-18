@@ -8,7 +8,7 @@ public class WinScreen : MonoBehaviour
     public void RestartLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Level");
+        SceneManager.LoadScene("Level2");
     }
 
     public void GoToMainMenu()
