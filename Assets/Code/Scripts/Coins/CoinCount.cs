@@ -5,12 +5,12 @@ using UnityEngine.Events;
 
 public class CoinCount : MonoBehaviour
 {
-    public int NumberOfCoins { get; private set; } //only this script can set the value
+    public int NumberOfCoins { get; private set; } 
 
     public UnityEvent<CoinCount> OnCoinsCollected;
     public void CoinsCollected()
     {
-        //Incrementing the number of rings collected
+        
         NumberOfCoins++;
         OnCoinsCollected?.Invoke(this);
     }
@@ -19,7 +19,7 @@ public class CoinCount : MonoBehaviour
     {
         if (NumberOfCoins >= amount)
         {
-            NumberOfCoins -= amount;  // Deduct the required amount of coins
+            NumberOfCoins -= amount;  
         }
     }
 }

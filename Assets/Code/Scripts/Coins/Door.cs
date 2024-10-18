@@ -7,10 +7,10 @@ public class Door : MonoBehaviour
     [SerializeField] private int coinsRequired = 10;
     [SerializeField] private GameObject uiPanel;  
     private bool isPlayerNearby = false;
-    private CoinCount coinCount;
+    [SerializeField]  private CoinCount coinCount;
+    public CoinUI coin;
     private void Start()
     {
-        coinCount = GetComponent<CoinCount>();
         uiPanel.SetActive(false); 
     }
 
@@ -29,8 +29,8 @@ public class Door : MonoBehaviour
     {
         if (coinCount.NumberOfCoins >= coinsRequired)
         {
-            coinCount.DeductCoins(coinsRequired);  
-                                                   
+            coinCount.DeductCoins(coinsRequired);
+            coin.UpdateCoinCount(coinCount);
             Destroy(gameObject);  
             uiPanel.SetActive(false); 
         }
