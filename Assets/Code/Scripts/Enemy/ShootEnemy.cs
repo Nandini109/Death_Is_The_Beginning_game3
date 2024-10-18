@@ -9,20 +9,11 @@ public class ShootEnemy : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;  
     [SerializeField] private Transform firePoint;   
     [SerializeField] private float fireRate = 2f;   
-    [SerializeField] private GameObject CoinPrefab;
     private void Start()
     {
         
         StartCoroutine(ShootAtPlayer());
     }
-
-    private void Update()
-    {
-       
-        
-    }
-
-    
 
     private IEnumerator ShootAtPlayer()
     {

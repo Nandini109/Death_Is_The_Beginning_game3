@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Spikesss");
+            Debug.Log("Bullet");
             playerController.Death();
         }
 
